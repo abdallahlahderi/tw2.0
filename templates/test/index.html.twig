@@ -1,0 +1,24 @@
+<h1>liste des joueurs</h1>
+<table>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Age</th>
+<th>Classe</th>
+</tr>
+{% for t in test %}
+<tr>
+<td>{{ t.id }}</td>
+<td>{{ t.name}}</td>
+<td>{{ t.age }}</td>
+<td>{{ t.classe }}</td>
+
+
+
+
+
+</tr>
+
+{% endfor %}
+</table>
+<a href="{{ path('test_new')}}"> create new </a>

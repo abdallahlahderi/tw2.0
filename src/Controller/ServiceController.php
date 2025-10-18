@@ -25,4 +25,10 @@ final class ServiceController extends AbstractController
         // Redirection vers la méthode index() du HomeController
         return $this->redirectToRoute('app_home');
     }
+
+
+
+
+
+    
 }
